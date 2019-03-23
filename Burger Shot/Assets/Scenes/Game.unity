@@ -398,19 +398,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1709694630471875836, guid: e1f6fc2babf8949d59f11f10da8a8081,
         type: 3}
-      propertyPath: laserPrefab
-      value: 
-      objectReference: {fileID: 6181492791542815130, guid: b41c23ab523ae4866bf7c1bdef718e86,
-        type: 3}
-    - target: {fileID: 1709694630471875836, guid: e1f6fc2babf8949d59f11f10da8a8081,
-        type: 3}
-      propertyPath: projectileSpeed
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 1709694630471875836, guid: e1f6fc2babf8949d59f11f10da8a8081,
-        type: 3}
-      propertyPath: projectileFiringPeriod
-      value: 0.1
+      propertyPath: moveSpeed
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1f6fc2babf8949d59f11f10da8a8081, type: 3}
@@ -602,3 +591,82 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c0c570a73aa849c6815896921b5bf37, type: 3}
+--- !u!1001 &8330604083042163116
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2447225738519189551, guid: e6d86e255568247b8a4667e43b48f044,
+        type: 3}
+      propertyPath: m_Name
+      value: Shredder
+      objectReference: {fileID: 0}
+    - target: {fileID: 2036558923074848999, guid: e6d86e255568247b8a4667e43b48f044,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2036558923074848999, guid: e6d86e255568247b8a4667e43b48f044,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 17.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 2036558923074848999, guid: e6d86e255568247b8a4667e43b48f044,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2036558923074848999, guid: e6d86e255568247b8a4667e43b48f044,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2036558923074848999, guid: e6d86e255568247b8a4667e43b48f044,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2036558923074848999, guid: e6d86e255568247b8a4667e43b48f044,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2036558923074848999, guid: e6d86e255568247b8a4667e43b48f044,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2036558923074848999, guid: e6d86e255568247b8a4667e43b48f044,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2036558923074848999, guid: e6d86e255568247b8a4667e43b48f044,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2036558923074848999, guid: e6d86e255568247b8a4667e43b48f044,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2036558923074848999, guid: e6d86e255568247b8a4667e43b48f044,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481410604442130683, guid: e6d86e255568247b8a4667e43b48f044,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.2026844
+      objectReference: {fileID: 0}
+    - target: {fileID: 8481410604442130683, guid: e6d86e255568247b8a4667e43b48f044,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.4053688
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e6d86e255568247b8a4667e43b48f044, type: 3}
