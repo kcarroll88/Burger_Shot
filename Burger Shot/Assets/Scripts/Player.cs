@@ -31,7 +31,6 @@ public class Player : MonoBehaviour
     {
         Move();
         Fire();
-        Death();
     }
 
     private void Move()
@@ -67,8 +66,16 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void Death()
+    private void OnCollisionEnter2D(Collision2D player)
     {
+        DamageDealer damageDealer = player.gameObject.GetComponent<DamageDealer>();
+        Death(damageDealer);
+    }
+
+    private void Death(DamageDealer damageDealer)
+    {
+        playerHealth -= damageDealer.GetDamage();
+
         if (playerHealth <= 0)
         {
             Destroy(gameObject);
