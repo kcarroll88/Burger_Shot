@@ -7,10 +7,11 @@ public class Player : MonoBehaviour
 {
     // Config
     [SerializeField] float moveSpeed = 10f;
-    [SerializeField] float padding = 1;
+    [SerializeField] float padding = 1f;
     [SerializeField] GameObject laserPrefab;
     [SerializeField] float projectileSpeed;
     [SerializeField] float projectileFiringPeriod;
+    [SerializeField] float playerHealth = 150f;
 
     Coroutine firingCoroutine;
 
@@ -30,6 +31,7 @@ public class Player : MonoBehaviour
     {
         Move();
         Fire();
+        Death();
     }
 
     private void Move()
@@ -62,6 +64,14 @@ public class Player : MonoBehaviour
             GameObject laser = Instantiate(laserPrefab, transform.position, Quaternion.identity) as GameObject;
             laser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, projectileSpeed);
             yield return new WaitForSeconds(projectileFiringPeriod);
+        }
+    }
+
+    private void Death()
+    {
+        if (playerHealth <= 0)
+        {
+            Destroy(gameObject);
         }
     }
 
