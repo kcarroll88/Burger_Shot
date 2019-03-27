@@ -121,7 +121,7 @@ MonoBehaviour:
     type: 3}
   explosionDuration: 1
   deathSFX: {fileID: 8300000, guid: 620aa527495f74eed8bf76521d07fa17, type: 3}
-  deathSFXVolume: 1
+  deathSFXVolume: 0.3
 --- !u!60 &4404602646072722586
 PolygonCollider2D:
   m_ObjectHideFlags: 0

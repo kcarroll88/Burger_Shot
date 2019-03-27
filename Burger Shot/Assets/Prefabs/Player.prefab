@@ -100,10 +100,10 @@ MonoBehaviour:
   projectileSpeed: 50
   projectileFiringPeriod: 0.05
   laserFire: {fileID: 8300000, guid: 5976b45161b7f4197860e252b735780b, type: 3}
-  laserFireVolume: 0.1
+  laserFireVolume: 0.03
   health: 100
   deathSFX: {fileID: 8300000, guid: fefa7d34b06a4432d980bf612ca03f77, type: 3}
-  explosionVolume: 0.5
+  explosionVolume: 0.2
 --- !u!60 &8991379461955625355
 PolygonCollider2D:
   m_ObjectHideFlags: 0

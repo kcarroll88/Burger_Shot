@@ -22,6 +22,9 @@ public class Enemy : MonoBehaviour
     [SerializeField] AudioClip deathSFX;
     [SerializeField] [Range(0,1)] float deathSFXVolume = 0.7f;
 
+    [Header("Points")]
+    [SerializeField] int scoreValue = 123;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -72,9 +75,12 @@ public class Enemy : MonoBehaviour
 
     private void Die()
     {
+        FindObjectOfType<GameSession>().AddToScore(scoreValue);
+
         Destroy(gameObject);
         GameObject explosion = Instantiate(deathVFX, transform.position, transform.rotation);
         Destroy(explosion, explosionDuration);
+
         AudioSource.PlayClipAtPoint(deathSFX, Camera.main.transform.position, deathSFXVolume);
     }
 }
