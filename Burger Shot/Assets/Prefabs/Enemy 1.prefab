@@ -113,6 +113,9 @@ MonoBehaviour:
   enemyLaser: {fileID: 6181492791542815130, guid: 6e2cdaaf164e14ab0abe67261c946e56,
     type: 3}
   enemyProjectileSpeed: 10
+  deathVFX: {fileID: 1889538665255014993, guid: 4e2a0c38dedaf4ab69cd931a2c7b32b9,
+    type: 3}
+  explosionDuration: 1
 --- !u!60 &4404602646072722586
 PolygonCollider2D:
   m_ObjectHideFlags: 0
