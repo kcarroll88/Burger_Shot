@@ -30,13 +30,14 @@ public class Enemy : MonoBehaviour
         if (shotCounter <= 0f)
         {
             Fire();
+            shotCounter = Random.Range(minTimeBetweenShots, maxTimeBetweenShots);
         }
     }
 
     private void Fire()
     {
-        GameObject laser = Instantiate(enemyLaser, transform.position, Quaternion.identity);
-        laser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, enemyProjectileSpeed);
+        GameObject laser = Instantiate(enemyLaser, transform.position, Quaternion.identity) as GameObject;
+        laser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -enemyProjectileSpeed);
     }
 
     private void OnTriggerEnter2D(Collider2D other)

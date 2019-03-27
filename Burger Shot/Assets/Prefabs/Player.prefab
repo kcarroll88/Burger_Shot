@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1709694630471875838}
   - component: {fileID: 1709694630471875836}
   - component: {fileID: 8991379461955625355}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,7 +99,7 @@ MonoBehaviour:
     type: 3}
   projectileSpeed: 50
   projectileFiringPeriod: 0.05
-  playerHealth: 150
+  health: 150
 --- !u!60 &8991379461955625355
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -131,8 +131,8 @@ PolygonCollider2D:
       - {x: 0.5, y: 0.015}
       - {x: 0.38, y: 0.055}
       - {x: 0.12, y: 0.225}
-      - {x: 0.099999994, y: 0.355}
-      - {x: 0.06, y: 0.375}
+      - {x: 0.09085009, y: 0.30010033}
+      - {x: 0.03255015, y: 0.37042427}
       - {x: -0.089999996, y: 0.375}
       - {x: -0.19999999, y: 0.145}
       - {x: -0.56, y: -0.015}

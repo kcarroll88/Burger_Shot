@@ -6,12 +6,17 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     // Config
+    [Header("Player Movement")]
     [SerializeField] float moveSpeed = 10f;
     [SerializeField] float padding = 1f;
+
+    [Header("Player Laser")]
     [SerializeField] GameObject laserPrefab;
     [SerializeField] float projectileSpeed;
     [SerializeField] float projectileFiringPeriod;
-    [SerializeField] float playerHealth = 150f;
+
+    [Header("Player Health")]
+    [SerializeField] float health = 150f;
 
     Coroutine firingCoroutine;
 
@@ -66,17 +71,17 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D player)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        DamageDealer damageDealer = player.gameObject.GetComponent<DamageDealer>();
-        Death(damageDealer);
+        DamageDealer damageDealer = other.gameObject.GetComponent<DamageDealer>();
+        ProcessHit(damageDealer);
     }
 
-    private void Death(DamageDealer damageDealer)
+    private void ProcessHit(DamageDealer damageDealer)
     {
-        playerHealth -= damageDealer.GetDamage();
+        health -= damageDealer.GetDamage();
 
-        if (playerHealth <= 0)
+        if (health <= 0)
         {
             Destroy(gameObject);
         }
