@@ -100,6 +100,8 @@ MonoBehaviour:
   projectileSpeed: 50
   projectileFiringPeriod: 0.05
   health: 150
+  deathSFX: {fileID: 8300000, guid: 620aa527495f74eed8bf76521d07fa17, type: 3}
+  explosionVolume: 1
 --- !u!60 &8991379461955625355
 PolygonCollider2D:
   m_ObjectHideFlags: 0

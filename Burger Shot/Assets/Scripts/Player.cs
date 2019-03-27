@@ -18,6 +18,10 @@ public class Player : MonoBehaviour
     [Header("Player Health")]
     [SerializeField] float health = 150f;
 
+    [Header("Death")]
+    [SerializeField] AudioClip deathSFX;
+    [SerializeField] [Range(0,1)] float explosionVolume = 1f;
+
     Coroutine firingCoroutine;
 
     float xMin;
@@ -85,6 +89,7 @@ public class Player : MonoBehaviour
 
         if (health <= 0)
         {
+            AudioSource.PlayClipAtPoint(deathSFX, Camera.main.transform.position, explosionVolume);
             Destroy(gameObject);
         }
     }
