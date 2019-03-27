@@ -113,7 +113,7 @@ MonoBehaviour:
   enemyLaser: {fileID: 6181492791542815130, guid: 6e2cdaaf164e14ab0abe67261c946e56,
     type: 3}
   enemyProjectileSpeed: 10
-  laserFire: {fileID: 8300000, guid: 5976b45161b7f4197860e252b735780b, type: 3}
+  laserFire: {fileID: 8300000, guid: ed5350f8ed31f4cc4a6c60af1320b3e2, type: 3}
   laserFireVolume: 0.3
   deathVFX: {fileID: 1889538665255014993, guid: 4e2a0c38dedaf4ab69cd931a2c7b32b9,
     type: 3}
