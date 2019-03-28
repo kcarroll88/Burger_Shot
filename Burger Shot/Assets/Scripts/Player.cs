@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
     [SerializeField] [Range(0, 1)] float laserFireVolume = 0.5f;
 
     [Header("Player Health")]
-    [SerializeField] float health = 150f;
+    [SerializeField] int health = 150;
 
     [Header("Death")]
     [SerializeField] AudioClip deathSFX;
@@ -94,6 +94,11 @@ public class Player : MonoBehaviour
         {
             Die();
         }
+    }
+
+    public int GetHealth()
+    {
+        return health;
     }
 
     private void Die()
