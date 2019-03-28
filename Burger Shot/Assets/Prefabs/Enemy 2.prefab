@@ -108,13 +108,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 865768fc4ec7e4fa2b5aa7ff1338b4c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 1000
-  minTimeBetweenShots: 0.2
-  maxTimeBetweenShots: 3
+  health: 3000
+  minTimeBetweenShots: 1
+  maxTimeBetweenShots: 2
   enemyLaser: {fileID: 6181492791542815130, guid: b01949cb1380149ddb7efdf0c87d1e0d,
     type: 3}
-  enemyProjectileSpeed: 2
-  laserFire: {fileID: 8300000, guid: c9d22e5f3a67c463599d0a55cbca613d, type: 3}
+  enemyProjectileSpeed: 4
+  laserFire: {fileID: 8300000, guid: 068a930d3b2e9441d8c3637260815bba, type: 3}
   laserFireVolume: 0.2
   deathVFX: {fileID: 1889538665255014993, guid: 4e2a0c38dedaf4ab69cd931a2c7b32b9,
     type: 3}
@@ -147,20 +147,20 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.049999997, y: 0.42}
-      - {x: 0.049999997, y: 0.41}
-      - {x: 0, y: 0.42}
-      - {x: -0.24, y: 0.42}
-      - {x: -0.39, y: 0.38}
-      - {x: -0.45797482, y: 0.39396644}
-      - {x: -0.3369571, y: -0.15388453}
-      - {x: -0.2799149, y: -0.2888813}
-      - {x: -0.11923531, y: -0.41999996}
-      - {x: 0.10386872, y: -0.42061198}
-      - {x: 0.15654418, y: -0.35646462}
-      - {x: 0.31405038, y: -0.19801676}
-      - {x: 0.46597064, y: 0.40195155}
-      - {x: 0.28, y: 0.42}
+    - - {x: 0.63251686, y: 0.80834484}
+      - {x: 0.2139678, y: 0.4919834}
+      - {x: -0.012944818, y: 0.5580783}
+      - {x: -0.22705519, y: 0.5019841}
+      - {x: -0.64458144, y: 0.81149435}
+      - {x: -0.93693316, y: 0.80388546}
+      - {x: -0.5440743, y: -0.61558294}
+      - {x: -0.35758376, y: -0.6254468}
+      - {x: -0.22710884, y: -0.82128954}
+      - {x: 0.23763204, y: -0.80464125}
+      - {x: 0.31619692, y: -0.60673094}
+      - {x: 0.5384271, y: -0.6165657}
+      - {x: 0.74644184, y: 0.12147999}
+      - {x: 0.91429615, y: 0.80402994}
 --- !u!50 &6496769550190351917
 Rigidbody2D:
   serializedVersion: 4

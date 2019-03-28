@@ -108,8 +108,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 865768fc4ec7e4fa2b5aa7ff1338b4c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 100
-  shotCounter: 0
+  health: 300
   minTimeBetweenShots: 0.2
   maxTimeBetweenShots: 3
   enemyLaser: {fileID: 6181492791542815130, guid: 6e2cdaaf164e14ab0abe67261c946e56,
@@ -122,6 +121,7 @@ MonoBehaviour:
   explosionDuration: 1
   deathSFX: {fileID: 8300000, guid: 620aa527495f74eed8bf76521d07fa17, type: 3}
   deathSFXVolume: 0.3
+  scoreValue: 123
 --- !u!60 &3119303248012549011
 PolygonCollider2D:
   m_ObjectHideFlags: 0
