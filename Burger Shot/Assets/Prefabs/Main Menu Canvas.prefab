@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 2410011572054618897}
   - component: {fileID: 2410011572054618896}
   m_Layer: 5
-  m_Name: Play Again Text
+  m_Name: Start Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -183,7 +183,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Play Again
+  m_text: Start
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 98ed351f0041249359c824ab0f6af03f, type: 2}
   m_sharedMaterial: {fileID: 21227129535437702, guid: 98ed351f0041249359c824ab0f6af03f,
@@ -212,8 +212,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 72
-  m_fontSizeBase: 72
+  m_fontSize: 100
+  m_fontSizeBase: 100
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -253,10 +253,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 2410011572054618896}
-    characterCount: 10
+    characterCount: 5
     spriteCount: 0
-    spaceCount: 1
-    wordCount: 2
+    spaceCount: 0
+    wordCount: 1
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -291,7 +291,7 @@ GameObject:
   - component: {fileID: 2410011572176691022}
   - component: {fileID: 2410011572176691021}
   m_Layer: 5
-  m_Name: TextMeshPro Text
+  m_Name: Sub Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -344,7 +344,9 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: The Aliens have won this time...
+  m_text: 'Prepare yourself
+
+    fly or die'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 98ed351f0041249359c824ab0f6af03f, type: 2}
   m_sharedMaterial: {fileID: 21227129535437702, guid: 98ed351f0041249359c824ab0f6af03f,
@@ -414,10 +416,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 2410011572176691021}
-    characterCount: 32
+    characterCount: 27
     spriteCount: 0
-    spaceCount: 5
-    wordCount: 6
+    spaceCount: 4
+    wordCount: 5
     linkCount: 0
     lineCount: 2
     pageCount: 1
@@ -452,7 +454,7 @@ GameObject:
   - component: {fileID: 2410011572429201690}
   - component: {fileID: 2410011572429201689}
   m_Layer: 5
-  m_Name: Main Menu Text
+  m_Name: Quit Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -505,7 +507,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: Main Menu
+  m_text: quit
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 98ed351f0041249359c824ab0f6af03f, type: 2}
   m_sharedMaterial: {fileID: 21227129535437702, guid: 98ed351f0041249359c824ab0f6af03f,
@@ -575,10 +577,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 2410011572429201689}
-    characterCount: 9
+    characterCount: 4
     spriteCount: 0
-    spaceCount: 1
-    wordCount: 2
+    spaceCount: 0
+    wordCount: 1
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -614,7 +616,7 @@ GameObject:
   - component: {fileID: 2410011572907083286}
   - component: {fileID: 2410011572907083285}
   m_Layer: 5
-  m_Name: Canvas 1
+  m_Name: Main Menu Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -716,7 +718,7 @@ GameObject:
   - component: {fileID: 2410011573891015841}
   - component: {fileID: 2410011573891015840}
   m_Layer: 5
-  m_Name: Play Again
+  m_Name: Start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -818,7 +820,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2410011573891015841}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 615467350587018510, guid: f41a588266f164fb09fa75c23e7474de,
+          type: 3}
+        m_MethodName: LoadMainGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &2410011573912499847
@@ -833,7 +847,7 @@ GameObject:
   - component: {fileID: 2410011573912499842}
   - component: {fileID: 2410011573912499841}
   m_Layer: 5
-  m_Name: Dead Text
+  m_Name: Lazer Lagend
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -886,7 +900,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: You Are Dead
+  m_text: Lazer Legend
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 98ed351f0041249359c824ab0f6af03f, type: 2}
   m_sharedMaterial: {fileID: 21227129535437702, guid: 98ed351f0041249359c824ab0f6af03f,
@@ -933,7 +947,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 8
+  m_firstOverflowCharacterIndex: 6
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -958,8 +972,8 @@ MonoBehaviour:
     textComponent: {fileID: 2410011573912499841}
     characterCount: 12
     spriteCount: 0
-    spaceCount: 2
-    wordCount: 3
+    spaceCount: 1
+    wordCount: 2
     linkCount: 0
     lineCount: 2
     pageCount: 1

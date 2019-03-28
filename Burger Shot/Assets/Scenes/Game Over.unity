@@ -720,6 +720,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2410011573912499847, guid: d206ed698067b412eacef9d94a6b5b83,
+        type: 3}
+      propertyPath: m_Name
+      value: Dead Text
+      objectReference: {fileID: 0}
     - target: {fileID: 2410011573912499841, guid: d206ed698067b412eacef9d94a6b5b83,
         type: 3}
       propertyPath: m_havePropertiesChanged
@@ -749,6 +754,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_fontColor.r
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2410011573912499841, guid: d206ed698067b412eacef9d94a6b5b83,
+        type: 3}
+      propertyPath: m_text
+      value: you are dead
+      objectReference: {fileID: 0}
+    - target: {fileID: 2410011573912499841, guid: d206ed698067b412eacef9d94a6b5b83,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2410011573912499841, guid: d206ed698067b412eacef9d94a6b5b83,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 2410011573912499841, guid: d206ed698067b412eacef9d94a6b5b83,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2410011573912499841, guid: d206ed698067b412eacef9d94a6b5b83,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2410011573912499841, guid: d206ed698067b412eacef9d94a6b5b83,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2410011573891015846, guid: d206ed698067b412eacef9d94a6b5b83,
+        type: 3}
+      propertyPath: m_Name
+      value: Play Again
       objectReference: {fileID: 0}
     - target: {fileID: 2410011573891015847, guid: d206ed698067b412eacef9d94a6b5b83,
         type: 3}
@@ -800,6 +840,11 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 2410011572054618902, guid: d206ed698067b412eacef9d94a6b5b83,
+        type: 3}
+      propertyPath: m_Name
+      value: Play Again Text
+      objectReference: {fileID: 0}
     - target: {fileID: 2410011572054618896, guid: d206ed698067b412eacef9d94a6b5b83,
         type: 3}
       propertyPath: m_havePropertiesChanged
@@ -809,6 +854,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_isInputParsingRequired
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2410011572054618896, guid: d206ed698067b412eacef9d94a6b5b83,
+        type: 3}
+      propertyPath: m_text
+      value: Play Again
+      objectReference: {fileID: 0}
+    - target: {fileID: 2410011572054618896, guid: d206ed698067b412eacef9d94a6b5b83,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2410011572054618896, guid: d206ed698067b412eacef9d94a6b5b83,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2410011572054618896, guid: d206ed698067b412eacef9d94a6b5b83,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2410011572054618896, guid: d206ed698067b412eacef9d94a6b5b83,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 85
+      objectReference: {fileID: 0}
+    - target: {fileID: 2410011572054618896, guid: d206ed698067b412eacef9d94a6b5b83,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 85
       objectReference: {fileID: 0}
     - target: {fileID: 2410011572176691059, guid: d206ed698067b412eacef9d94a6b5b83,
         type: 3}
@@ -824,6 +899,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_isInputParsingRequired
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2410011572176691021, guid: d206ed698067b412eacef9d94a6b5b83,
+        type: 3}
+      propertyPath: m_text
+      value: The Aliens won this time...
+      objectReference: {fileID: 0}
+    - target: {fileID: 2410011572176691021, guid: d206ed698067b412eacef9d94a6b5b83,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 2410011572176691021, guid: d206ed698067b412eacef9d94a6b5b83,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2410011572176691021, guid: d206ed698067b412eacef9d94a6b5b83,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2410011572176691021, guid: d206ed698067b412eacef9d94a6b5b83,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2410011571909098659, guid: d206ed698067b412eacef9d94a6b5b83,
         type: 3}
@@ -864,6 +964,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2410011572429201695, guid: d206ed698067b412eacef9d94a6b5b83,
+        type: 3}
+      propertyPath: m_Name
+      value: Main Menu Text
       objectReference: {fileID: 0}
     - target: {fileID: 2410011572429201688, guid: d206ed698067b412eacef9d94a6b5b83,
         type: 3}
@@ -909,6 +1014,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_fontSizeBase
       value: 58
+      objectReference: {fileID: 0}
+    - target: {fileID: 2410011572429201689, guid: d206ed698067b412eacef9d94a6b5b83,
+        type: 3}
+      propertyPath: m_text
+      value: main menu
+      objectReference: {fileID: 0}
+    - target: {fileID: 2410011572429201689, guid: d206ed698067b412eacef9d94a6b5b83,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2410011572429201689, guid: d206ed698067b412eacef9d94a6b5b83,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2410011572429201689, guid: d206ed698067b412eacef9d94a6b5b83,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d206ed698067b412eacef9d94a6b5b83, type: 3}
